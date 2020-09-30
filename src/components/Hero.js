@@ -8,9 +8,9 @@ const Hero = () => {
   return (
     <Wrapper>
       <Background>
-        <article>
+        <article style={{ marginTop: '-6em' }}>
           <h1>Ajankohtaiset kotisivut PK-yrittäjille</h1>
-          <h3 style={{ fontFamily: "Open Sans", lineHeight: '2.5rem' }}>Yksi sisällönhallintajärjestelmä,
+          <h3>Yksi sisällönhallintajärjestelmä,
           useita etusivuja. Tiedot ovat
           käytettävissä automaattisesti monella laitteella samanaikaisesti.!</h3>
           <Link to='/projects'>Projects</Link>
@@ -35,7 +35,9 @@ const Wrapper = styled.section`
     }
     h3 {
       font-weight: 400;
+      line-height: 1.5;
       font-family: "Caveat", cursive;
+      margin-bottom: 2.6rem
     }
     a {
       background: transparent;

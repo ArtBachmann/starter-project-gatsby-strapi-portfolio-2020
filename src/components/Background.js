@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 const query = graphql`
   {
-    file(relativePath: {eq: "artify_technology_1.jpg"}) {
+    file(relativePath: {eq: "less_is_more.jpg"}) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
@@ -50,7 +50,7 @@ const fadeIn = keyframes`
 const Wrapper = styled.section`
   .bcg {
     /* MUST!!!!!! */
-    min-height: 75vh;
+    min-height: 100vh;
     margin-top: 5rem;
     display: grid;
     place-items: center;
